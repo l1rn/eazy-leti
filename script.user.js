@@ -2,6 +2,8 @@
 // @name         eazy-leti
 // @namespace    https://l1rn.org/
 // @version      1.1
+// @source       https://github.com/l1rn/eazy-leti
+// @supportURL   https://github.com/l1rn/eazy-leti
 // @description  makes your life easier
 // @author       l1rn
 // @match        https://open.etu.ru/courses/*
