@@ -1,5 +1,5 @@
 #### 1. Установить одно из расширений для запуска пользовательских скриптов: 
 - [TamperMonkey](https://www.tampermonkey.net/)
 #### 2. [Надо разрешить выполнение userscript’ов](https://www.tampermonkey.net/faq.php?locale=ru#Q209) и режим разработчика в вашем браузере.
-#### 3. <a href="github.com/l1rn/eazy-leti/raw/main/script.user.js">Установить скрипт</a>
+#### 3. <a href="github.com/l1rn/eazy-leti/raw/main/script.user.js" target="_blank" rel="noopener noreferrer">Установить скрипт</a>
 #### Работает на open.etu.ru/courses/*
