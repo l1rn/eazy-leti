@@ -1,4 +1,22 @@
-(function () {
+// ==UserScript==
+// @name         eazy-leti
+// @namespace    https://l1rn.org/
+// @version      1.0
+// @description  makes your life easier
+// @author       l1rn
+// @match        https://open.etu.ru/courses/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=etu.ru
+// @grant        GM_addStyle
+// @run-at       document-end
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    const btn = document.createElement('button');
+    btn.id = 'show-me-button';
+    btn.innerText = 'показать вопросы';
+    btn.addEventListener('click', () => {
+        (function () {
     let videoLength = 0;
     const videoElem = document.querySelector('video');
     const vidTimeElem = document.querySelector('.vidtime');
@@ -23,7 +41,7 @@
         if (videoDiv) {
             const metadataRaw = videoDiv.dataset.metadata.replace(/&quot;/g, '"');
             const metadata = JSON.parse(metadataRaw);
-            
+
             if (metadata.publishCompletionUrl) {
                 const csrfToken = document.cookie.split("; ").find(r => r.startsWith("csrftoken="))?.split("=")[1];
                 fetch(metadata.publishCompletionUrl, {
@@ -68,4 +86,8 @@
             $('.sequence-bottom').show();
         }
     });
+})();
+    })
+    const navItemButtons = document.querySelector('nav.sequence-bottom')
+    navItemButtons.appendChild(btn);
 })();

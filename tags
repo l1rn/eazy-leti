@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/lirn/eazy-leti/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AnonymousFunctione8007f450100	script.js	/^    $('.in-video-continue').off('click').on('click', function () {$/;"	f
+csrfToken	script.js	/^                const csrfToken = document.cookie.split("; ").find(r => r.startsWith("csrftoken=/;"	C
+currentIndex	script.js	/^    var currentIndex = 0;$/;"	v
+eazy-leti	README.md	/^# eazy-leti$/;"	c
+metadata	script.js	/^            const metadata = JSON.parse(metadataRaw);$/;"	C
+metadataRaw	script.js	/^            const metadataRaw = videoDiv.dataset.metadata.replace(\/&quot;\/g, '"');$/;"	C
+questions	script.js	/^    var questions = $('.in-video-problem-wrapper .xblock-student_view-problem');$/;"	v
+showQuestion	script.js	/^    function showQuestion(index) {$/;"	f
+timeParts	script.js	/^        const timeParts = vidTimeElem.textContent.split(' \/ ')[1].split(':');$/;"	C
+vidTimeElem	script.js	/^    const vidTimeElem = document.querySelector('.vidtime');$/;"	C
+videoDiv	script.js	/^        const videoDiv = document.querySelector("div.video[data-metadata]");$/;"	C
+videoElem	script.js	/^    const videoElem = document.querySelector('video');$/;"	C
+videoLength	script.js	/^    let videoLength = 0;$/;"	v
