@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         eazy-leti
 // @namespace    https://l1rn.org/
-// @version      1.0
+// @version      1.1
 // @description  makes your life easier
 // @author       l1rn
 // @match        https://open.etu.ru/courses/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=etu.ru
 // @grant        GM_addStyle
 // @run-at       document-end
+// @updateURL    https://raw.githubusercontent.com/l1rn/eazy-leti/refs/heads/main/script.js
+// @downloadURL  https://raw.githubusercontent.com/l1rn/eazy-leti/refs/heads/main/script.js
 // ==/UserScript==
 
 (function() {
